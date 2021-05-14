@@ -1,0 +1,39 @@
+body {
+    padding: 0px;
+    margin: 0px;
+}
+.main {
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    height: 100vh;
+    width: auto;
+}
+.lift1, .lift2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    width: 50%;
+}
+.square {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+}
+#footer {
+    width: 100vw;
+    height: 50px;
+    bottom: 0px;
+    position: absolute;
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(180, 180, 180);
+    
+}
